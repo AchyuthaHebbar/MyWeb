@@ -1,0 +1,43 @@
+#kundali td:empty::after {
+  content: "\00a0";
+}
+
+#kundali tr:nth-of-type(8n+1){
+  border-bottom: 1px solid black;
+}
+
+#kundali tr:nth-child(1) {
+  border-bottom: 1px solid white;
+  border-top: 1px solid black;
+}
+
+#kundali td:nth-child(odd) {
+  border-left: 1px solid black;
+}
+
+#kundali {
+  width: 65%;
+  border: 1px solid black;
+  font-size: 15px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+#kundali td {
+  width: 12.5%;
+}
+
+
+#dasabhukti td:empty {
+  background-color: lightgray;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+.card-header {
+  background-color: black;
+  color: white;
+}
